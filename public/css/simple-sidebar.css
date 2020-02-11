@@ -1,0 +1,118 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+body {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+form.chatfrom {
+  background-color: #d9d9d9;
+  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+.left{
+  background-color: #89d8d3;
+background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+  
+  width: 100%;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: hue-rotate(30deg);
+  margin-right: 3%;
+  padding: 2%;
+  margin-bottom: 3%;
+}
+.right{
+  border-radius: 10px;
+  padding: 2%;
+  margin-bottom: 3%;
+  background-color: #fefefe;
+  box-shadow: 1px 1px 1px 1px rgb(182, 180, 180);
+}
+.signUpText{
+  margin: 0;
+  border: none;
+  padding: 15%;
+}
+.loginText{
+  padding: 15%;
+}
+h2{
+  color:#fefefe;
+}
+#login{
+  margin: 10% 0% 0% 25%;
+  padding: 1% 20% 1% 20%;
+  border-radius: 20px;
+  color: #fefefe;
+  border-color: #fefefe;
+}
+#login:hover{
+  background: #fefefe;
+  border-color: #fefefe;
+  color: #2C3A47;
+  transition: ease all 1s;
+}
+#signup{
+  margin: 10% 0% 0% 25%;
+  padding: 1% 19% 1% 19%;
+  border-radius: 20px;
+  background-color: #fefefe;
+  color: #2C3A47;
+}
+#signup:hover{
+  background: transparent;
+  border-color: #fefefe;
+  color: white;
+  transition: ease all 1s;
+}
+/* index page style end*/
+/* common style start */
+.logincotainer {
+  margin-top: 7%;
+}
